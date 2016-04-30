@@ -40,7 +40,6 @@ header {
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 5px;
-	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color:#E5E1E1;
@@ -49,13 +48,13 @@ header {
 .profile-pic {
 	margin: 0 auto;
 	padding: 20px 20px;
-	max-width: 300px;
+	max-width: 400px;
 		}
 		
 .greeting {
 	display: block;
 	margin: 0 auto;
-	width: 80%;
+	padding: 20px 20px;
 	}
 		
 		
@@ -187,20 +186,14 @@ header {
 	@media (min-width: 768px) {
 		
 		
-	.name {
-		float: left;	
-		margin: 0 15px;
-		}
+
 		
-	.nav {
-		float: right;
-		margin: 0 15px;
+	.profile-pic {
+		float: right;	
 		}
 		
 	.nav li {
-		float: left;	
-		padding: 0 10px;
-		background-color:transparent;
+		background-color: transparent;	
 		}
 		
 		
@@ -261,10 +254,21 @@ header {
 		
 	@media (min-width: 1024px) {
 		
-		
+	
 	.name {
-		text-align: center;
-		padding: 10px 0;
+		float: left;	
+		margin: 0 15px;
+		}	
+		
+	.nav {
+		float: right;
+		margin: 0 15px;
+		}
+		
+	.nav li {
+		float: left;	
+		padding: 0 10px;
+		background-color:transparent;
 		}
 		
 		
