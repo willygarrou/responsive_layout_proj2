@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* Global Settings */
+* {
+	box-sizing: border-box;
+	}
+
+/* Main Document */
+body {
+	background-color: #B3B2B2;
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+img {
+	width: 100%;
+	}
+	
+.wrapper {
+	max-width: 1450px;
+	}
+	
+h1 {
+	margin: 0;
+	padding-bottom: 10px;
+	}
+
+	
+/* Link Styles */
+a {
+	text-decoration: none;
+	color: darkgray;
+	}
+
+/* Header Styles */
+
+.name {
+	text-align: center;
+	}
+	
+header {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#E5E1E1;
+	}
+	
+.profile-pic {
+	margin: 0 auto;
+	padding: 20px 20px;
+	max-width: 300px;
+		}
+		
+.greeting {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	}
+		
+		
+	/* Navigation Styles */
+		
+		
+	.nav li {
+		margin: 5px auto;
+		font-size: 1.5em;
+		text-align: center;
+		list-style: none;
+		background-color: white;
+		padding: 0;
+		}
+		
+	.nav a {
+		display: block;	
+		}
+		
+	.nav a {
+		transition: all .75s;	
+		}
+		
+	.nav a:hover {
+		color: black;
+		}
+		
+	
+
+	/* Main Content Styles */
+	
+	.main-content {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		text-align: center;
+		background-color: white;
+	}
+	
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calc {
+		text-align: center;	
+		}
+		
+	.col {
+		padding-right: 10px;
+		padding-left: 10px;
+		text-align: center;	
+		}
+		
+	.pics {
+		max-width: 300px;	
+		}
+		
+		
+	
+	/* Contact Styles */
+	
+	.contact-info {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		background-color: #e5e1e1;
+		text-align: center;
+		}
+		
+	.contact-info h3,
+	.contact-info p {
+		margin: 0;
+		padding: 10px;
+			}
+	
+		
+	/* Footer styles */
+	
+	footer {
+		width: 90%;
+		margin: 0 auto;
+		background-color: #e5e1e1;
+		padding-bottom: 10px;
+		}
+		
+	
+		
+	.footernav {
+		float: right;	
+		padding: 10px 10px;
+		margin: 0;
+		}
+		
+	.footernav a {
+		color: black;	
+		}
+		
+	.footername {
+		float: left;	
+		padding: 10px 10px;
+		
+	}
+	
+	.footername h2 {
+		margin: 0;
+		}
+		
+		
+	.fullfooternav {
+		visibility: hidden;	
+		}
+		
+		
+		
+		
+		
+		
+	/* Media Queries */
+	
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	
+	@media (min-width: 768px) {
+		
+		
+	.name {
+		float: left;	
+		margin: 0 15px;
+		}
+		
+	.nav {
+		float: right;
+		margin: 0 15px;
+		}
+		
+	.nav li {
+		float: left;	
+		padding: 0 10px;
+		background-color:transparent;
+		}
+		
+		
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calc {
+		text-align: center;	
+		width: 50%;
+		float: left;
+		}
+		
+	.col {
+		padding-right: 10px;
+		padding-left: 10px;
+		text-align: center;	
+		}
+		
+		
+	.fullfooternav {
+		visibility: visible;	
+		}	
+		
+	.footernav {
+		visibility: hidden;
+		float: none;
+		margin: 0;
+		padding: 0;
+		}
+		
+		
+	.fullfooternav li {
+		margin: 5px auto;
+		font-size: 1.2em;
+		list-style: none;
+		background-color: #e5e1e1;
+		padding-left: 10px;
+		padding-right: 10px;
+		float: right;
+		}
+		
+	.fullfooternav a {
+		display: block;
+		float: left;	
+		}
+		
+	.fullfooternav a {
+		transition: all .75s;	
+		}
+		
+	.fullfooternav a:hover {
+		color: black;
+		}
+		
+		}
+		
+	@media (min-width: 1024px) {
+		
+		
+	.name {
+		text-align: center;
+		padding: 10px 0;
+		}
+		
+		
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calc {
+		text-align: center;	
+		width: 33%;
+		float: left;
+		}
+		
+	.col {
+		padding-right: 15px;
+		padding-left: 15px;
+		text-align: center;	
+		}
+		
+		}
+		
